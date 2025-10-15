@@ -3,17 +3,17 @@
 }
 
 @font-face {
-  font-family: 'Azonix';
-  src: url('Azonix.otf');
+  font-family: 'Aller';
+  src: url('Aller_BdIt.ttf');
 }
 
 @font-face {
-  font-family: 'Trump Soft Pro';
-  src: url('TrumpSoftPro-Bold.ttf');
+  font-family: 'Aller Italic';
+  src: url('Aller_It.ttf');
 }
 
 section.main {
-  background-image: url("Imagenes/background.webp");
+  background-image: url("Imagenes/background.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,41 +21,23 @@ section.main {
 }
 
 section.main h1{
-  font-family: 'Trump Soft Pro';
-  font-weight: 700;
+  font-family: 'Aller Italic';
 }
 
 section.main span{
-  font-family: 'Azonix';
-  font-weight: 400;
-  line-height: 0;
-  margin-bottom: 5px;
+  font-family: 'Aller';
 }
 
 section.hero {
-  background-color: white;
-}
-
-section.hero h2 span{
-    font-family: 'Trump Soft Pro';
-}
-
-section.hero h2{
-  font-family: 'Azonix';
+  background-color: #f6f7f6;
 }
 
 section.eleccion{
-    background-image: url('Imagenes/background.png');
+  background-image: url('Imagenes/background.png');
 }
 
 .wpp {
   position: fixed;
   bottom: 20px;
   right: 20px;
-}
-
-@media screen and (max-width: 639px) { 
-    section.main {
-        background-position:initial;
-    }
 }
