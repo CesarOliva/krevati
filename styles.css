@@ -1,0 +1,61 @@
+* {
+  font-family: "Poppins";
+}
+
+@font-face {
+  font-family: 'Azonix';
+  src: url('Azonix.otf');
+}
+
+@font-face {
+  font-family: 'Trump Soft Pro';
+  src: url('TrumpSoftPro-Bold.ttf');
+}
+
+section.main {
+  background-image: url("Imagenes/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+section.main h1{
+  font-family: 'Trump Soft Pro';
+  font-weight: 700;
+}
+
+section.main span{
+  font-family: 'Azonix';
+  font-weight: 400;
+  line-height: 0;
+  margin-bottom: 5px;
+}
+
+section.hero {
+  background-color: white;
+}
+
+section.hero h2 span{
+    font-family: 'Trump Soft Pro';
+}
+
+section.hero h2{
+  font-family: 'Azonix';
+}
+
+section.eleccion{
+    background-image: url('Imagenes/background.png');
+}
+
+.wpp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media screen and (max-width: 639px) { 
+    section.main {
+        background-position:initial;
+    }
+}
