@@ -2,18 +2,8 @@
   font-family: "Poppins";
 }
 
-@font-face {
-  font-family: 'Aller';
-  src: url('Aller_BdIt.ttf');
-}
-
-@font-face {
-  font-family: 'Aller Italic';
-  src: url('Aller_It.ttf');
-}
-
 section.main {
-  background-image: url("Imagenes/background.avif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1311');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,31 +11,11 @@ section.main {
 }
 
 section.main h1{
-  font-family: 'Aller Italic';
+  font-weight: 600;
 }
-
-section.main span,
-footer h3{
-  font-family: 'Aller';
-}
-
-section.hero {
-  background-color: #f6f7f6;
-}
-
-section.eleccion{
-  background-image: url('Imagenes/background.png');
-}
-
-.hero-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
-  background-size: cover;
-  background-position: center;
-}
-
 
 .contact-bg {
-  background-image: linear-gradient(rgba(63, 184, 77, 0.8), rgba(30, 109, 38, 0.8)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2073&q=80');
+  background: linear-gradient(135deg, rgba(36, 34, 35, 0.9) 0%, rgba(59, 58, 58, 0.7) 100%), url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
   background-size: cover;
   background-position: center;
 }
